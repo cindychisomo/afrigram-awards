@@ -397,10 +397,9 @@ footer .f-brand{display:flex;align-items:center;gap:.8rem}
   <div class="wrap">
     <h2 id="fin-title">Finalists: send your details</h2>
     <p class="lede">Top 3 finalists only. Fill in this short form, then send your photo and logo on WhatsApp so we can publish your official poster.</p>
-
-    <form class="fform" name="finalist-details" method="POST" action="/" enctype="multipart/form-data" data-netlify="true" netlify-honeypot="bot-field" id="finalist-form">
-      <input type="hidden" name="form-name" value="finalist-details">
-      <p class="hp" aria-hidden="true"><label>Leave this empty <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+<form id="finalist-form" class="fform" name="finalist-details" method="POST" data-netlify="true">
+  <input type="hidden" name="form-name" value="finalist-details" />
+  
 
       <div class="fgrid">
         <div class="field">
